@@ -10,3 +10,7 @@ It is a recommandation system where based on a chosen id, the output consists of
 -- From Google drive (mandatory for the Application section): https://drive.google.com/file/d/1BasDf5kGMpARja5sO2tkgxqW_yalquPk/view?usp=sharing as modified_movie_data;
 
 - *Section 0*: every such section consists of functions and libraries mandatory for the folowing sections, so please run these sections first;
+
+*Movie Trends Project*
+
+Using linear regression to analyse and display past movie genre trends, and predict future popularity. 
