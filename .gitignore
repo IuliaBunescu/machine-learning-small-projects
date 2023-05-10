@@ -39,3 +39,4 @@ Thumbs.db
 # ignore specific folders and files #
 ######################
 data/
+notebooks/__pycache__/myfunctions.cpython-310.pyc
