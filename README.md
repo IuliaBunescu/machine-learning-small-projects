@@ -1,20 +1,39 @@
-# machine-learning-small-projects
-Using ML algorithms for small applications. 
+# Data Science Small Projects
+Using ML algorithms for small applications and reports. Each project refers to its corresponding notebook file.
 
-*Movies Project*
+## General notes
+---
+- The data folder is empty due to sizing issues (if it doesn't exist create one), so please go ahead and add the neccesary files for each project.
 
-It is a recommandation system where based on a chosen id, the output consists of similar movies recommendation. 
+- For the *movies related* project, al the data is taken from the IMDB dataset: https://www.imdb.com/interfaces/, and then properly prepared for modelling. 
 
-- The data folder is empty due to sizing issues, so please go ahead and add the neccesary files:
--- From the imdb dataset (no need if you only want to run the application) (https://www.imdb.com/interfaces/). Chosen datasets: *title.basics.tsv.gz* as general_data and *title.ratings.tsv.gz* as rating_data;
--- From Google drive (mandatory for the Application section): https://drive.google.com/file/d/1BasDf5kGMpARja5sO2tkgxqW_yalquPk/view?usp=sharing as modified_movie_data;
+**However, each project provides the *polished dataset* such that there is no need to download the previously mentioned datasets if you only want to run the final application.** 
 
-- *Section 0*: every such section consists of functions and libraries mandatory for the folowing sections, so please run these sections first;
+## *Movies* Project
+---
+### **The brief**
+A recommandation system where based on a chosen id, the output consists of similar movies recommendation.
+- *Model*: unsupervised KNN 
+- *Libs*: sklearn, pandas, numpy
+- *Notebook file*: movies.ipynb
 
-*Movie Trends Project*
+### **Links and Notes**
+Polished dataset:
+- From Google drive (mandatory for the Application section): https://drive.google.com/file/d/1BasDf5kGMpARja5sO2tkgxqW_yalquPk/view?usp=sharing 
 
+Note: 
+**Section 0**: every such section consists of functions and libraries mandatory for the folowing sections, so please run these sections first;
+
+
+## *Movie Trends* Project
+---
+
+### **The brief**
 An application that uses polynomial regression to analyse and display past movie genre trends, based on IMDB dataset. The app also gives insigts on the most representative periods for each genre.
 
-- The data folder is empty due to sizing issues, so please go ahead and add the neccesary files:
--- From the imdb dataset (no need if you download thefianl dataset) (https://www.imdb.com/interfaces/). Chosen datasets: *title.basics.tsv.gz* as general_data and *title.ratings.tsv.gz* as rating_data;
--- From Google drive (mandatory for the Application section): https://drive.google.com/file/d/1FeYNXyVxjiIxYYkywCJ_jk6Lt7sefpnX/view?usp=sharing;
+- *Model*: polynomial regression
+- *Libs*: sklearn, pandas, matplotlib, numpy
+- *Notebook file*: movie_trends.ipynb
+### **Links and Notes**
+Polished dataset:
+- From Google drive (mandatory for the Application section): https://drive.google.com/file/d/1FeYNXyVxjiIxYYkywCJ_jk6Lt7sefpnX/view?usp=sharing;
