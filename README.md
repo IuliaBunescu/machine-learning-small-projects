@@ -12,7 +12,7 @@ Using ML algorithms for small applications and reports. Each project refers to i
 - :warning: For a better viewing experience copy and paste the notebook https address to [Nbviewer](https://nbviewer.org/)
 
 ## :movie_camera: *Movies* Project :movie_camera:
----
+
 ### **The brief**
 A recommandation system where based on a chosen id, the output consists of similar movies recommendation.
 - *Model*: unsupervised KNN 
@@ -28,7 +28,7 @@ Note:
 
 
 ## :chart_with_downwards_trend: *Movie Trends* Project :chart_with_downwards_trend:
----
+
 
 ### **The brief**
 An application that uses polynomial regression to analyse and display past movie genre trends, based on IMDB dataset. The app also gives insigts on the most representative periods for each genre.
@@ -41,7 +41,7 @@ Polished dataset:
 - From Google drive (mandatory for the Application section): https://drive.google.com/file/d/1FeYNXyVxjiIxYYkywCJ_jk6Lt7sefpnX/view?usp=sharing;
 
 ## :computer: *Object Detection* Project :computer:
----
+
 
 ### **The brief**
 The development of a model which recognizes and counts specific objects (laptop, keys, smartphone, keyboard, router, usb stick, server rack).  
@@ -55,5 +55,5 @@ https://universe.roboflow.com/iulia-bunescu-vldcs/specific-electronics-challenge
 
 
 ### **Some results**
-![Prediction during Validation](https://drive.google.com/file/d/1eZDEVKuejhvyKgsVdzdSEkealc6jWAKl/view?usp=sharing)
+<img src="\results_images\confusion_matrix_normalized.png" alt="Model Testing results" >
 
