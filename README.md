@@ -11,6 +11,7 @@ Using ML algorithms for small applications and reports. Each project refers to i
 
 - :warning: For a better viewing experience copy and paste the notebook https address to [Nbviewer](https://nbviewer.org/)
 
+---
 ## :movie_camera: *Movies* Project :movie_camera:
 
 ### **The brief**
@@ -26,6 +27,8 @@ Polished dataset:
 Note: 
 **Section 0**: every such section consists of functions and libraries mandatory for the folowing sections, so please run these sections first;
 
+### **Some results**
+<img src="/results_images/Movie_recommendations_results.png" alt="Partial results from the movie trens notebook" >
 
 ## :chart_with_downwards_trend: *Movie Trends* Project :chart_with_downwards_trend:
 
@@ -39,6 +42,9 @@ An application that uses polynomial regression to analyse and display past movie
 ### **Links and Notes**
 Polished dataset:
 - From Google drive (mandatory for the Application section): https://drive.google.com/file/d/1FeYNXyVxjiIxYYkywCJ_jk6Lt7sefpnX/view?usp=sharing;
+
+### **Some results**
+<img src="/results_images/movie_trends_result.png" alt="Partial results from the movie trens notebook" >
 
 ## :computer: *Object Detection* Project :computer:
 
