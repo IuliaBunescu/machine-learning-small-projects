@@ -55,5 +55,5 @@ https://universe.roboflow.com/iulia-bunescu-vldcs/specific-electronics-challenge
 
 
 ### **Some results**
-<img src="\results_images\confusion_matrix_normalized.png" alt="Model Testing results" >
+<img src="/results_images/challenge_test_trained_model.png" alt="Model Testing results" >
 
