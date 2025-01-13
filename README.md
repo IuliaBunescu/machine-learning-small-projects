@@ -3,7 +3,7 @@ Using ML algorithms for small applications and reports. Each project refers to i
 
 ## :pushpin: General notes :pushpin:
 ---
-- The data folder is empty due to sizing issues (if it doesn't exist create one), so please go ahead and add the neccesary files for each project.
+- There is no 'data' folder due to sizing issues (if it doesn't exist create one), so please go ahead and create it and add the neccesary files for each project.
 
 - For the *movies related* projects, al the data is taken from the IMDB dataset: https://www.imdb.com/interfaces/, and then properly prepared for modelling. 
 
