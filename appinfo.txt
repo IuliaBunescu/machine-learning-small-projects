@@ -1,0 +1,114 @@
+# Setting Up Version Control for a Personal Project
+
+This was (and still is, as I haven’t made another one) my Data Scientist Portfolio when I was applying for jobs almost 2 years ago.
+
+---
+
+## Table of Contents
+
+1. [Description](#description)  
+2. [Installation](#installation)  
+3. [Usage](#usage)  
+4. [Contributing](#contributing)  
+   - [Branches](#branches)  
+   - [How to Contribute](#how-to-contribute)  
+5. [License](#license)  
+
+---
+
+## Description
+
+**GitHub Link:** [https://github.com/IuliaBunescu/machine-learning-small-projects](https://github.com/IuliaBunescu/machine-learning-small-projects)
+
+This repository showcases my work as an aspiring data scientist. It is a collection of notebooks, each in its own folder under the `notebooks` directory. Each notebook deals with a different data science-related problem.
+
+- **The 'movies' notebook**: Explores a basic recommendation system based on a movie chosen by the user. It uses the K Nearest Neighbors algorithm to find similar movies in the IMDB database.
+- **The 'movie_trends' analysis**: Lets the user select a movie genre and plots the evolution of yearly average ratings for IMDB movies in that genre. It also performs some statistical analysis and models the genre data using polynomial regression.
+- **The 'object_detection' notebook**: Shows the development of a model which recognizes and counts specific objects (e.g., laptop, keys, smartphone, keyboard, router, USB stick, server rack).
+
+---
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/IuliaBunescu/machine-learning-small-projects.git
+   ```
+
+2. **Navigate to the Project Directory**  
+   ```bash
+   cd ~/machine-learning-small-projects
+   ```
+
+3. **(Optional) Create a Python Virtual Environment**  
+   If you want to work on the project, it's recommended to create a virtual environment:
+   ```bash
+   python -m venv .venv
+   .\.venv\Scripts\activate   # On Windows
+   source .venv/bin/activate  # On Mac/Linux
+   ```
+
+4. **(Optional) Install Required Python Modules**  
+   Although each notebook checks for the necessary Python modules and installs them if missing, you can install all modules at once using the `requirements.txt` file:
+   ```bash
+   pip install -r "~/machine-learning-small-projects/requirements.txt"
+   ```
+
+---
+
+## Usage
+
+The project structure is as follows:
+
+```
+machine-learning-small-projects/
+├── global/  
+├── models/  
+├── notebooks/  
+├── results_images/  
+├── test_images/  
+├── .gitignore  
+├── LICENSE  
+├── README.md  
+└── requirements.txt
+```
+
+- **global/**: Contains global variables used across multiple notebooks.
+- **models/**: Stores trained machine learning models and related artifacts.
+- **notebooks/**: Includes Jupyter notebooks for each project, detailing the implementation and analysis, and a helper functions file `myfunctions.py`.
+- **results_images/**: Houses images and visualizations generated from the projects' results.
+- **test_images/**: Contains test image examples used for demonstration purposes.
+- **.gitignore**: Specifies files and directories to be ignored by Git.
+- **LICENSE**: Details the licensing information for the repository.
+- **README.md**: Provides an overview and instructions for the repository.
+- **requirements.txt**: Lists all Python dependencies required to run the projects.
+
+To use any of the polished applications from the notebooks, you can directly run them from the notebook and use the terminal to interact with it.
+
+If you want to run the notebooks, you will need to create a `data/` folder and add the respective dataset as per the notebook instructions. For every notebook, a polished version of the dataset is mentioned along with a link to it (check the README for quick access to the links).
+
+---
+
+## Contributing
+
+### Branches
+
+- **main**: Main branch containing the stable version of the repo.
+- **development**: Development branch of the repo.
+- **Feature/*:** Feature development branches.
+
+### How to Contribute
+
+1. **Fork the repository** to your GitHub account.
+2. **Create a new branch** from `development` for your feature and name it `Feature/{your_feature_name}`.
+3. **Make your changes** and commit them.
+4. **Push your changes** to your forked repository.
+5. **Create a Pull Request** to merge your changes into the original repository.
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.
