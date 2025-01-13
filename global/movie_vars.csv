@@ -1,2 +1,3 @@
 Id,Name,Value
 1,unique_geners_list,"['Adventure', 'Film-Noir', 'War', 'News', 'Action', 'Horror', 'Family', 'Musical', 'Western', 'Animation', 'Music', 'Short', 'Crime', 'Biography', 'Fantasy', 'Mystery', 'Thriller', 'Adult', 'Talk-Show', 'Romance', 'Game-Show', 'Sci-Fi', 'Comedy', 'Documentary', 'History', 'Reality-TV', 'Sport', 'Drama']"
+2,unique_geners_list,"['Musical', 'History', 'Documentary', 'Comedy', 'War', 'Sci-Fi', 'News', 'Talk-Show', 'Action', 'Biography', 'Animation', 'Western', 'Game-Show', 'Adult', 'Film-Noir', 'Short', 'Romance', 'Crime', 'Thriller', 'Mystery', 'Fantasy', 'Horror', 'Family', 'Adventure', 'Music', 'Reality-TV', 'Drama', 'Sport']"

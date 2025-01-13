@@ -44,4 +44,5 @@ notebooks/runs/
 notebooks/detect/
 notebooks/datasets/
 notebooks/Specific-Electronics-Challenge-v2-7/
+.venv/
 
